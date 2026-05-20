@@ -1,3 +1,11 @@
+/* Tarefa: Desenvolva um programa em C que interaja com o usuário para simular o controle de 
+segurança de um cofre bancário utilizando estruturas condicionais aninhadas (um if-else dentro de 
+outro). O sistema deve tentar abrir o cofre, exibindo "Cofre ABERTO com sucesso", se a biometria e 
+o reconhecimento de voz estiverem corretos, ou se a chave mestra e a senha mestra forem 
+inseridas. Se a abertura falhar, exiba "Acesso NEGADO". Caso o cofre seja aberto com sucesso, o 
+programa deve verificar imediatamente se o acesso ocorreu fora do horário comercial (antes das 
+8h, depois das 18h ou aos finais de semana), disparando um "ALERTA SILENCIOSO" se for o caso, 
+ou registrando "Acesso normal" caso contrário*/
 #include <stdio.h>
 #include <stdbool.h>
 #include <string.h>
