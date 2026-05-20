@@ -1,3 +1,10 @@
+/*Tarefa: Escreva um programa em C para aprovação de crédito imobiliário solicitando os dados ao 
+usuário e utilizando uma única estrutura condicional composta (if-else) e operadores lógicos. O 
+programa deve avaliar os dados e exibir a mensagem "Crédito APROVADO" apenas se o cliente 
+tiver 18 anos ou mais e possuir o nome limpo, desde que, obrigatoriamente, o valor da parcela não 
+ultrapasse 30% do seu salário ou o seu score de crédito seja superior a 800. Caso qualquer uma 
+dessas exigências conjuntas não seja atendida, o sistema deve exibir "Crédito NEGADO"*/
+
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
