@@ -14,6 +14,13 @@ int main(){
 	printf("Numero j");
 	scanf("%d", &j);
 	printf("O conjunto do intervalo: ");
+	
+	if(i > j){
+    int aux = i;
+    i = j;
+    j = aux;
+    }
+	
 	for(L = i; L < j + 1;  L++){
 		printf(" %d ", L);
 	}
